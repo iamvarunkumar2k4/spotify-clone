@@ -7,7 +7,7 @@ let nowdesc=document.getElementsByClassName('img-desc');
 let box=document.getElementsByClassName('left-main');
 
 
-// MASTER PLAY BUTTON (add listener only once)
+      // MASTER PLAY BUTTON (add listener only once)
 play.addEventListener('click', () => {
   if (audio.paused) {
     audio.play();
